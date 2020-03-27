@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="lv">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,15 +16,23 @@
 <body>
 <div class="mainbox">
     <div class="header">
-        <img src="./images/LOGO2.png" alt="logo">
-    </div>
-    <div class="menu">
-        <ul>
-            <li><a href="index.html" class="active">SĀKUMS</a></li>
-            <li><a href="galerija.html">GALERIJA</a></li>
-            <li><a href="kontakti.html">KONTAKTI</a></li>
-            <li><a href="pakalpojumi.html">PAKALPOJUMI</a></li>
-        </ul>
+        <div class="menu">
+            <img src="./images/LOGO2.png" alt="logo">
+            <a class="nav" href="index.html">Sākums</a>
+            <a class="nav" href="galerija.html">Galerija</a>
+            <a class="nav" href="kontakti.html">Kontakti</a>
+            <a class="nav" href="pakalpojumi.html">Pakalpojumi</a>
+            <div class="dropdown">
+                <button class="active">Ziņas <i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-content">
+                    <a class="dp" href="raksts-1.html">Raksts 1</a>
+                    <a class="dp" href="raksts-2.html">Raksts 2</a>
+                    <a class="dp active" href="raksts-3.html">Raksts 3</a>
+                    <a class="dp" href="raksts-4.html">Raksts 4</a>
+                    <a class="dp" href="raksts-5.html">Raksts 5</a>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="post-main">
         <img src="https://f12.pmo.ee/sQq6_NegN7M_EbetCtwdoxinrBs=/1370x820/filters:focal(170x31:377x318)/nginx/o/2020/03/17/13011962t1he24e.jpg" alt="Filma QUIET PLAC 2">

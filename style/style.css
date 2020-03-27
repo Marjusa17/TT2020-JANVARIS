@@ -6,8 +6,8 @@
 }
 
 .menu{
-    background-color: black;
-    height: 37px;
+    background-color: inherit;
+    height: 170px;
     text-align: center;
     padding-bottom: 20px;
     padding-top: 20px;
@@ -33,16 +33,74 @@
 
 .header img{
     max-width: 300px;
+    float:left;
 }
 
-.header {
-    text-align: center;
+.menu a.nav:hover{
+    background-color: darkred;
 }
 
 .menu{
     overflow: hidden;
-    position: sticky;
-    top: 0;
+}
+
+.menu a.nav{
+    text-decoration: none;
+    font-size: 25px;
+    color:white;
+    float: left;
+    padding:10px 15px;
+    text-align: center;
+    border: 1px solid red;
+    font-family: Tahoma, serif;
+    margin-top:65px;
+}
+
+.menu button{
+    float: left;
+    outline: none;
+    color: white;
+    padding: 10px 15px;
+    background-color: inherit;
+    font-size: 21px;
+    text-align: center;
+    border: 1px solid red;
+    font-family: Tahoma, serif;
+    margin-top:65px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: inherit;
+    min-width: 50px;
+    margin-top: 110px;
+    z-index: 0;
+}
+
+.dropdown-content a.dp {
+    float: none;
+    color: white;
+    background-color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 25px;
+    text-align: center;
+    border: 1px solid red;
+    font-family: Tahoma, serif;
+}
+
+.dropdown-content a:hover {
+    background-color: darkred;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown{
+    float:left;
 }
 
 .footer{
@@ -54,24 +112,9 @@
     text-align: center;
 }
 
-.menu>ul>li {
-    display: inline;
-    padding: 10px 10px 10px 10px;
-    border:1px solid red;
-    background-color: black;
-    position:relative;
-    top:8px;
-    font-family: Tahoma, serif;
-    font-size: 20px;
-}
 
 .active {
     color: red !important;
-}
-
-.menu>ul>li>a{
-    text-decoration: none;
-    color:white;
 }
 
 h1,h2,h3,h5,h6 {

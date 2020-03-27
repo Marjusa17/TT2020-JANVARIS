@@ -16,15 +16,23 @@
 <body>
 <div class="mainbox">
     <div class="header">
-        <img src="./images/LOGO2.png" alt="logo">
-    </div>
-    <div class="menu">
-        <ul>
-            <li><a href="index.html">SĀKUMS</a></li>
-            <li><a href="galerija.html">GALERIJA</a></li>
-            <li><a href="kontakti.html" class="active">KONTAKTI</a></li>
-            <li><a href="pakalpojumi.html">PAKALPOJUMI</a></li>
-        </ul>
+        <div class="menu">
+            <img src="./images/LOGO2.png" alt="logo">
+            <a class="nav" href="index.html">Sākums</a>
+            <a class="nav" href="galerija.html">Galerija</a>
+            <a class="nav active" href="kontakti.html">Kontakti</a>
+            <a class="nav" href="pakalpojumi.html">Pakalpojumi</a>
+            <div class="dropdown">
+                <button>Ziņas <i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-content">
+                    <a class="dp" href="raksts-1.html">Raksts 1</a>
+                    <a class="dp" href="raksts-2.html">Raksts 2</a>
+                    <a class="dp" href="raksts-3.html">Raksts 3</a>
+                    <a class="dp" href="raksts-4.html">Raksts 4</a>
+                    <a class="dp" href="raksts-5.html">Raksts 5</a>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="main">
         <h1>KONTAKTI</h1>
@@ -33,7 +41,8 @@
                 <h2>Vēlies sazināties ar mums? Zvani vai raksti!</h2>
                 <h3>Tālrunis: +634 675747</h3>
                 <h3>E-pasts: info@netflix.com</h3>
-                <h2>Vari mums arī rakstīt ziņojumu.</h2>
+                <h2>Mēs atrodamies šeit:</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d278360.9258534136!2d23.84898829406782!3d56.97116141078603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eecfb0e5073ded%3A0x400cfcd68f2fe30!2zUsSrZ2E!5e0!3m2!1slv!2slv!4v1585314698746!5m2!1slv!2slv" width="600" height="450"  style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             </div>
             <div class="rightside_2">
                 <h4>Vārds</h4>
@@ -43,7 +52,7 @@
                 <h4>Jautājums</h4>
                 <input type="text">
                 <h4>Komentāri</h4>
-                <input type="text"><br>
+                <textarea cols="50" rows="20"> </textarea><br>
                 <button id="submit">Nosūtīt</button>
             </div>
         </div>
