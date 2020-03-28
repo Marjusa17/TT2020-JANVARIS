@@ -243,3 +243,88 @@ p{
 .footer *{
     color:lightgrey !important;
 }
+
+@media only screen and (min-width: 50px) and (max-width: 200px) {
+    .menu{
+        overflow: inherit;
+    }
+    .menu a.nav{
+        width: 50px;
+        margin: 0px auto;
+    }
+    .menu button{
+        width: 50px !important;
+        margin-top: 0px;
+    }
+}
+
+
+@media only screen and (min-width: 200px) and (max-width: 400px) {
+    .menu{
+        overflow: inherit;
+    }
+    .menu a.nav{
+        width: 200px;
+        margin: 0px auto;
+    }
+    .menu button{
+        width: 200px !important;
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+    .menu{
+        overflow: inherit;
+    }
+    .menu a.nav{
+        width: 400px;
+        margin: 0px auto;
+    }
+    .menu button{
+        width: 400px !important;
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+    .menu{
+        overflow: inherit;
+    }
+    .menu a.nav{
+        width: 600px;
+        margin: 0px auto;
+    }
+    .menu button{
+        width: 600px !important;
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (min-width: 800px)  and (max-width: 1000px) {
+    .menu{
+        overflow: inherit;
+    }
+    .menu a.nav{
+        width: 800px;
+        margin: 0px auto;
+    }
+    .menu button{
+        width: 800px !important;
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1100px)  {
+    .menu{
+        overflow: inherit;
+    }
+    .menu a.nav{
+        width: 1000px;
+        margin: 0px auto;
+    }
+    .menu button{
+        width: 1000px !important;
+        margin-top: 0px;
+    }
+}
